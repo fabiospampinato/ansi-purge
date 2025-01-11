@@ -2,6 +2,7 @@
   "name": "ansi-purge",
   "repository": "github:fabiospampinato/ansi-purge",
   "description": "A tiny function for deleting ANSI escape sequences from a string.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -21,9 +22,9 @@
     "purge"
   ],
   "devDependencies": {
-    "fava": "^0.2.0",
-    "tiny-colors": "^2.0.2",
-    "tsex": "^3.0.0",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tiny-colors": "^2.2.1",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
