@@ -5,7 +5,7 @@ A tiny function for deleting ANSI escape sequences from a string.
 ## Install
 
 ```sh
-npm install --save ansi-purge
+npm install ansi-purge
 ```
 
 ## Usage
@@ -13,6 +13,8 @@ npm install --save ansi-purge
 ```ts
 import color from 'tiny-colors';
 import ansiPurge from 'ansi-purge';
+
+// Let's remove ANSI escapes from a string
 
 console.log ( ansiPurge ( color.red ( 'Hello' ) ) ); // => 'Hello'
 ```
