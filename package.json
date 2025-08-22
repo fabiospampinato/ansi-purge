@@ -9,6 +9,7 @@
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
+    "benchmark": "tsex benchmark",
     "clean": "tsex clean",
     "compile": "tsex compile",
     "compile:watch": "tsex compile --watch",
@@ -22,6 +23,7 @@
     "purge"
   ],
   "devDependencies": {
+    "benchloop": "^2.1.1",
     "fava": "^0.3.4",
     "tiny-colors": "^2.2.1",
     "tsex": "^4.0.2",
